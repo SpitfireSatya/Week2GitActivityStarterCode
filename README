@@ -1,18 +1,24 @@
 partner A (Sarah):
-    $ git clone git@github.com:moyersneu/Week2GitActivityStarterCode.git
-    $ npm install -g ... 
-    $ ...
-    $ tsc 
-    $ node dist/index.js
-      result_add = 5    //correct output
-    $ git branch subtract-operation
-    $ git checkout subtract-operation
-    - edit files calculator.ts and index.ts -
-    $ tsc 
-    $ node dist/index.js
-      result_subtract = 2 //correct output for 4-2 
-    $ git add src
-    $ git commit -m "subtract function"
-    $ git push --set-upstream origin subtract-operation
+  $ git clone git@github.com:moyersneu/Week2GitActivityStarterCode.git
+  $ npm install -g ... 
+  $ ...
+  $ tsc 
+  $ node dist/index.js
+    result_add = 5    //correct output
+  $ git branch subtract-operation
+  $ git checkout subtract-operation
+  $ tsc 
+  $ node dist/index.js
+    result_subtract = 2 //correct output for 4-2 
+  $ git add src
+  $ git commit -m "subtract function"
+  $ git push --set-upstream origin subtract-operation
+  $ git checkout main
+  $ git branch multiply
     
 partner B (Alex):
+  $ git checkout main
+  $ git branch divide
+
+partner A (Sarah):
+  $ git checkout multiply-operation
