@@ -8,3 +8,6 @@ console.log(`result_add = ${result_add}`);
 const result_sub = calc.subtract(3, 2);
 console.log(`result_sub = ${result_sub}`);
 
+const result_multiply = calc.multiply(3, 2);
+console.log(`result_multiply = ${result_multiply}`);
+
