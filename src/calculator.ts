@@ -1,14 +1,15 @@
 export class Calculator {
-  public add(x: number, y: number) : number {
+  public add(x: number, y: number): number {
     return x + y;
   }
 
-  public subtract(x: number, y: number) : number {
+  public subtract(x: number, y: number): number {
     return x - y;
   }
-
-  public multiply(x: number, y: number) : number {
+  public multiply(x: number, y: number): number {
     return x * y;
   }
-
-};
+  public divide(x: number, y: number): number {
+    return x / y;
+  }
+}
