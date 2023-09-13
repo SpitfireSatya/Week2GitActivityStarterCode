@@ -9,4 +9,7 @@ const result_divide = calc.subtract(4, 2);
 
 console.log(`result_subtract = ${result_sub}`);
 console.log(`result_divide = ${result_divide}`);
+
+calc.hello();
 console.log(`done`);
+
