@@ -18,4 +18,8 @@ export class Calculator {
     throw new Error("Denominator must not be zero.")
     return 0
   }
+
+  public hello() {
+    console.log("Hello")
+  }
 };
