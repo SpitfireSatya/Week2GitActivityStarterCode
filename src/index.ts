@@ -14,5 +14,4 @@ const result_multiply = calc.multiply(2, 2);
 console.log(`result_multiply = ${result_multiply}`);
 
 calc.hello()
-
 console.log("done")
